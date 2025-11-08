@@ -137,8 +137,12 @@ rain_detection_finetune.ipynb
 Upload a rainy or clear image when prompted in the notebook, and check the prediction.
 
 ### 🧩 Example Output
+````
 🌦️ Predicted Weather: Rainy (98.3%)
 💧 Rain detected → Turning OFF irrigation motor.
+````
 **or**
+````
 ☀️ Predicted Weather: Clear (92.1%)
 ✅ No rain detected → Pump remains ON.
+````
