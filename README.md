@@ -119,10 +119,26 @@ Smart-Rain-Detection-Automated-Irrigation/
 
 ## 🚀 How to Run the Project
 
-### 1️⃣ Clone the Repository
+
+### 1.Clone the Repository
 ```bash
 git clone https://github.com/Mallesh06/Smart-Rain-Detection-Automated-Irrigation.git
 cd Smart-Rain-Detection-Automated-Irrigation
 ```
-### Install Dependencies
+### 2.Install Dependencies
+```bash
 pip install -r requirements.txt
+```
+### 3.Open the Notebook in Colab
+```bash
+rain_detection_finetune.ipynb
+```
+### 4.Upload Test Images
+Upload a rainy or clear image when prompted in the notebook, and check the prediction.
+
+### 🧩 Example Output
+🌦️ Predicted Weather: Rainy (98.3%)
+💧 Rain detected → Turning OFF irrigation motor.
+**or**
+☀️ Predicted Weather: Clear (92.1%)
+✅ No rain detected → Pump remains ON.
