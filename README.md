@@ -79,3 +79,50 @@ Smart-Rain-Detection-Automated-Irrigation/
 ├── model_prediction_output.png
 └── real_time_test.png
 ``</code></pre>
+
+
+
+---
+
+## 🧠 How It Works
+1. The model takes an **image input** (from a camera feed or local file).  
+2. It predicts whether the image represents a **Rainy** or **Not Rainy** environment.  
+3. Based on prediction:
+   - 🌧️ **Rain Detected → Motor OFF**
+   - ☀️ **No Rain → Motor ON (continues irrigation)**  
+4. The entire process simulates **real-time intelligent automation** using AI.
+
+---
+
+## 🧪 Model Training Details
+| Parameter | Value |
+|------------|--------|
+| Model | Vision Transformer (ViT) |
+| Epochs | 3 |
+| Batch Size | 8 |
+| Learning Rate | 2e-5 |
+| Optimizer | AdamW |
+| Framework | Hugging Face Transformers + PyTorch |
+| Accuracy | 72.48% |
+
+---
+
+## 📊 Results
+| Metric | Value |
+|--------|--------|
+| Training Accuracy | 71% |
+| Validation Accuracy | 72% |
+| Validation Loss | 0.94 |
+| Inference Example | “Rain Detected → Pump OFF” |
+
+---
+
+## 🚀 How to Run the Project
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/Mallesh06/Smart-Rain-Detection-Automated-Irrigation.git
+cd Smart-Rain-Detection-Automated-Irrigation
+```
+### Install Dependencies
+pip install -r requirements.txt
