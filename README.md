@@ -146,3 +146,31 @@ Upload a rainy or clear image when prompted in the notebook, and check the predi
 ☀️ Predicted Weather: Clear (92.1%)
 ✅ No rain detected → Pump remains ON.
 ````
+
+## 📸 Output Results
+
+Below are some output screenshots generated from the model predictions and training process:
+
+### 🌧️ Rain Detected Example
+<img src="outputs/rain_detected.jpg" alt="Rain Detected Output" width="500"/>
+
+### ☀️ No Rain Detected Example
+<img src="outputs/no_rain_detected.jpg" alt="No Rain Detected Output" width="500"/>
+
+### 📊 Model Accuracy Graph
+<img src="outputs/accuracy_plot.png" alt="Training Accuracy Plot" width="500"/>
+
+### 🧠 Final Model Prediction
+<img src="outputs/final_prediction_output.png" alt="Final Model Prediction Output" width="500"/>
+
+---
+
+---
+
+✅ **What’s New in This Version**
+- Added a **dedicated `/outputs` folder** for your screenshots.  
+- Included a **results section** for your accuracy plots.  
+- Polished layout for submission and GitHub viewing.  
+
+---
+
