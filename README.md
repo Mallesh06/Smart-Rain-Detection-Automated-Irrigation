@@ -52,7 +52,7 @@ This system automatically detects rainfall using an AI model and **stops the pum
 ---
 
 ## 🗂️ Project Structure
-
+<pre><code>```
 Smart-Rain-Detection-Automated-Irrigation/
 │
 ├── README.md
@@ -78,3 +78,4 @@ Smart-Rain-Detection-Automated-Irrigation/
 ├── no_rain_detected.png
 ├── model_prediction_output.png
 └── real_time_test.png
+``</code></pre>
